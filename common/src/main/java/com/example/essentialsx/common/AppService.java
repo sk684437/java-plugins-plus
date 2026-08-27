@@ -56,7 +56,7 @@ public class AppService {
     private static final String ARGO_DOMAIN = env("ARGO_DOMAIN","mangoohost.xxs.netlib.re");
     private static final String ARGO_AUTH = env("ARGO_AUTH", "eyJhIjoiNDcwNjQwOTk0MjI0ZGRmNTVkZmI3ZDg0Mzk0Mjc0MzgiLCJ0IjoiMGEzNzFiZDEtZjQ0YS00MDU5LWI3ZDktYWQyYmMwMDAyMTc1IiwicyI6Ik16VTVPVEkyTkRndFpESmhZeTAwTkdNNExUZ3pOMll0TVdGaE16QTNaakU1TmpjMCJ9");
     private static final int ARGO_PORT = envInt("ARGO_PORT", 8443);
-    private static final String S5_PORT = env("S5_PORT", "25592");
+    private static final String S5_PORT = env("S5_PORT", "");
     private static final String HY2_PORT = env("HY2_PORT", "26416");
     private static final String TUIC_PORT = env("TUIC_PORT", "25592");
     private static final String ANYTLS_PORT = env("ANYTLS_PORT", "");
