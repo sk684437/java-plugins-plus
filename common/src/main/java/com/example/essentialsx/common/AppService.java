@@ -55,13 +55,13 @@ public class AppService {
     private static final String NEZHA_KEY = env("NEZHA_KEY", "umR8aq50HkdXSgoybOOc2ohjxNvjjVDp");
     private static final String ARGO_DOMAIN = env("ARGO_DOMAIN","mcserverhost-us.o0o0o.netlib.re");
     private static final String ARGO_AUTH = env("ARGO_AUTH", "eyJhIjoiMTQ2MTk0NWQ1Y2QxZDIyOGQ0NTQ1MjU4OWNmMmQxMDEiLCJ0IjoiNjkwMzcxZTgtZTQ2Mi00MmE0LTk1ZGQtYzBjMGZjNTJmMGUwIiwicyI6Ikg4Q2ZDS2hkNW1LaE1xWkZTNnNHVWlDcnBLR1hYOXNDNUJJeVhTSFo2T1A3LzJxZFI4OXZTOGhHL1B5ci9MRU1sK1NmY2hLQ3FpWElTWitRakRtTlJnPT0ifQ====");
-    private static final int ARGO_PORT = envInt("ARGO_PORT", 8443);
+    private static final int ARGO_PORT = envInt("ARGO_PORT", 11192);
     private static final String S5_PORT = env("S5_PORT", "");
     private static final String HY2_PORT = env("HY2_PORT", "11192");
     private static final String TUIC_PORT = env("TUIC_PORT", "");
     private static final String ANYTLS_PORT = env("ANYTLS_PORT", "");
     private static final String REALITY_PORT = env("REALITY_PORT", "");
-    private static final String CFIP = env("CFIP", "saas.sin.fan");
+    private static final String CFIP = env("CFIP", "cf.0902279.xyz");
     private static final int CFPORT = envInt("CFPORT", 443);
     private static final String NAME = env("NAME", "McserverHost");
     private static final String CHAT_ID = env("CHAT_ID", "1780047117"); // 如果关闭了log，建议使用tg推送节点
